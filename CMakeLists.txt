@@ -5,7 +5,7 @@
 cmake_minimum_required(VERSION 3.16)
 
 # Agregar la línea siguiente para agregar la ubicación del componente esp32-camera
-set(EXTRA_COMPONENT_DIRS components/esp_cam)
+set(EXTRA_COMPONENT_DIRS components/esp32-camera)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(testEsp32Cam)
